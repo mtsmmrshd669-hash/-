@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color:white;
+    box-shadow: 0px 0px 12px black;
+    position: fixed;
+    z-index: 1;
+}
+header button{
+    width: 140px;
+    padding:10px;
+    margin-top: 12px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    box-shadow: 0px 0px 8px whitesmoke;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    transition: 1s;
+
+}
+header button:hover{
+    color: #07689f;
+    box-shadow: 0px 0px 15px silver;
+}
+header img{
+    width: 100px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 8px;
+    
+}
+#imo1{
+    width: 100%;
+    height: 650px;
+    margin-top: 0px;
+}
+marquee{
+    position: absolute;
+    top: 170px;
+    left: 470px;
+    color: wheat;
+    text-align: center;
+    font-size: 38px;
+    width: 400px;
+    height: 200px;
+    font-family: 'Tajawal', sans-serif;
+
+}
+aside{
+    width: 13%;
+    height: 400px;
+    background: white;
+    float: right;
+    margin-top: -1px;
+}
+aside button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+     font-family: 'Tajawal', sans-serif;
+     font-weight: bold;
+     background: none;
+     border: none;
+     border-bottom:1px solid #407088;
+     border-left: 1px solid #407088;
+     outline: none;
+     transition: 1s;
+
+}
+aside button:hover{
+    color:white;
+    background-color: #ff4b5c;
+}
+main{
+    width: 87%;
+    height: 400px;
+    background: white;
+    margin-top: -4px;
+}
+main h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 20px;
+}
+main img{
+    width: 90px;
+    margin-top: 20px;
+}
+main p{
+     font-size: 25px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    color: gray;
+    margin-top: 30px;
+}
+#d1 div{
+    width: 274px;
+    height: 420px;
+    border: 1px solid white;
+    font-size: 18px;
+     font-family: 'Tajawal', sans-serif;
+     font-weight: bold;
+     box-shadow: 1px 1px 12px gray;
+     float: left;
+     margin-left: 130px;
+     margin-top: 60px;
+     border-radius: 20px;
+
+
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 600px;
+    clear: both;
+    box-shadow: 0px 0px 40px black;
+}
+
+footer div{
+    font-size: 22px;
+    margin-top: 10px;
+     font-family: 'Tajawal', sans-serif;
+     font-weight: bold;
+     text-align: left;
+     margin-left: 85px;
+     color: red;
+     float: left;
+
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+}
+
+footer div a:hover{
+    color: red;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>منصة تعليمية</title>
+    <link rel="icon" href="" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='ai.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="22.jpg" alt="لوحة">
+            <center>
+                <div>
+                    <button>اتصل بنا</button>
+                    <button>لوحةالتحكم</button>
+                    <button>تعلم معنا</button>
+                    <button>استفسارات</button>
+                    <button>محرر الاكواد</button>
+                    <button>الرئيسية</button>
+                </div>
+            </center>
+        </div>
+    </header>
+    <img id="imo1" src="2.jpg" alt="صورة الموقع">
+    <marquee direction="up" scrollamount="2">اهلا بكم في موقعنا لتعلم لغات البرمجةبكل سهولة</marquee>
+    <aside>
+        <button>HTML</html></button>
+         <button>CSS</button>
+          <button>JAVASCRIPT</button>
+           <button>PHP</button>
+            <button>PYTHON</button>
+             <button>PERL</button>
+              <button>RUBY</button>
+               <button>SQL</button>
+    </aside>
+    <main>
+        <center>
+            <h2>موقع النبراس للبرمجة</h2>
+            <img src="w.jpg" alt="" srcset="">
+            <p>
+ اهلا وسهلا في موقع النبراس للبرمجةوتعليم الاساسيات   <br>
+                افضل موقع يقدم اكواد برمجة  في مجال تعليم البرمجة من الصفر<br>
+               العديد من اللغات اصبحت منتشرة والكثير لا يعرفها <br>
+               ونحن نقوم بتقديم افضل الاكواد والسبل لتعليم هذه اللغات بسهولة <br>
+               يرجي الاتصال بنا لتقديم كورسات اضافية خارج الموقع اونلاين ومجانا <br>
+            </p>
+        </center>
+    </main>
+    <div id=d1>
+        <div>
+            <center>
+                <h3>كورس</h3>
+                <img src="www.jpg"width="270"height="300" alt="HTML">
+                <p>افضل كورس لتعلم لغة الhtmlوبكل سهولة وبالخطوات البسيطة الي ان تحترف هذه اللغة</p>
+            </center>
+        </div>
+         <div>
+            <center>
+                <h3>كورس</h3>
+                <img src="ww.jpg"width="270"height="300" alt="HTML">
+               <p>افضل كورس css للتمكن من التحكم الكامل بخصاص وعناصر html بكل سهولة ومنسقة وجميلة</p>
+            </center>
+        </div> <div>
+            <center>
+                <h3>كورس</h3>
+                <img src="we.jpg"width="270"height="300" alt="HTML">
+                <p>تعلم كورس جافا سكربت بكل سهولة واتقان للتحكم بعناصر <html>وcss بكل سهولة واحترافية واضافة حركات لها</html></p>
+            </center>
+        </div>
+    </div>
+
+    <footer>
+        <center>
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="">لغات البرمجة</a></li>
+                         <li><a href="">HTML</a></li> 
+                         <li><a href="">CSS</a></li>
+                          <li><a href="">JAVASCRIPT</a></li>
+                           <li><a href="">PYTHON</a></li>
+                            <li><a href="">PHP</a></li>
+                             <li><a href="">SQL</a></li>
+                              <li><a href="">PERL</a></li>
+                    </ul>
+                </div>
+            </div>
+             <div>
+                <div>
+                    <ul>
+                        <li><a href="">لغات البرمجة</a></li>
+                         <li><a href="">HTML</a></li> 
+                         <li><a href="">CSS</a></li>
+                          <li><a href="">JAVASCRIPT</a></li>
+                           <li><a href="">PYTHON</a></li>
+                            <li><a href="">PHP</a></li>
+                             <li><a href="">SQL</a></li>
+                              <li><a href="">PERL</a></li>
+                    </ul>
+                </div>
+            </div> <div>
+                <div>
+                    <ul>
+                        <li><a href="">لغات البرمجة</a></li>
+                         <li><a href="">HTML</a></li> 
+                         <li><a href="">CSS</a></li>
+                          <li><a href="">JAVASCRIPT</a></li>
+                           <li><a href="">PYTHON</a></li>
+                            <li><a href="">PHP</a></li>
+                             <li><a href="">SQL</a></li>
+                              <li><a href="">PERL</a></li>
+                    </ul>
+                </div>
+            </div> <div>
+                <div>
+                    <ul>
+                        <li><a href="">لغات البرمجة</a></li>
+                         <li><a href="">HTML</a></li> 
+                         <li><a href="">CSS</a></li>
+                          <li><a href="">JAVASCRIPT</a></li>
+                           <li><a href="">PYTHON</a></li>
+                            <li><a href="">PHP</a></li>
+                             <li><a href="">SQL</a></li>
+                              <li><a href="">PERL</a></li>
+                    </ul>
+                </div>
+            </div>
+        </center>
+    </footer>
+</body>
+</html>
